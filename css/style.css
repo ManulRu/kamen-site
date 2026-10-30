@@ -360,3 +360,17 @@ p{margin:0}
   .mega__grid{grid-template-columns:1fr 1fr}
   .contactb__map iframe{height:320px}
 }
+
+/* ===== Главная: стороны блоков «ёлочкой» и карточки-эмблемы, как у эталона ===== */
+@media (min-width:961px){
+  .fwcta--flip .fwcta__media{order:-1}
+  .fwcta--flip .fwcta__text{padding:80px max(48px,calc((100vw - 1400px)/2 + 48px)) 80px 120px}
+  .imgcta--flip .imgcta__grid{grid-template-columns:1fr 642px}
+  .imgcta--flip .imgcta__media{order:2}
+}
+.app-card .app-card__d{max-height:none;opacity:.9;margin-top:6px;font-size:14px;line-height:18px;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.emb{border:1px solid #eceff3;border-radius:20px;height:437px;padding:40px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;box-shadow:0 10px 30px -20px rgba(18,18,42,.25)}
+.emb img{width:210px;height:210px;object-fit:cover;border-radius:50%;box-shadow:0 14px 30px -14px rgba(18,18,42,.5)}
+.emb b{font-size:25px;line-height:30px;font-weight:500;color:var(--navy)}
+.emb span{color:var(--text)}
+@media (max-width:960px){.emb{height:auto;padding:36px 24px}.emb img{width:160px;height:160px}}
