@@ -374,3 +374,6 @@ p{margin:0}
 .emb b{font-size:25px;line-height:30px;font-weight:500;color:var(--navy)}
 .emb span{color:var(--text)}
 @media (max-width:960px){.emb{height:auto;padding:36px 24px}.emb img{width:160px;height:160px}}
+.mega:not(.is-open){display:none}
+.mega a{overflow-wrap:anywhere}
+html,body{max-width:100%}
